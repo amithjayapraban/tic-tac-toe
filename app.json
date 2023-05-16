@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "tictactoe",
+    "name": "Tic Tac Toe",
     "slug": "tictactoe",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.amithjayapraban.tictactoe"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "17b7deae-a8de-4ae5-8222-f07723e9631d"
+      }
     }
   }
 }
